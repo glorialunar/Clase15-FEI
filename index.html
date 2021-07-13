@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petshop</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="estilos/styles.css">
+    <!--FUENTES-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!--ICONOS-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"/>
+
+</head>
+
+<body>
+    
+    <section class="div header">
+
+        <p>
+            Grandes ofertas en comederos
+        </p>
+
+        <div>
+            <a target="_blank" href="#">Español</a>
+            <a target="_blank" href="#">ARG$</a>
+        </div>
+
+    </section>
+
+    <header>
+        
+        <div class="logoheader">
+            <img src="IMG/logoheader.png" alt="Logo del encabezado">
+        </div>
+
+        <button class="hamburguesa">
+            <i class="fas fa-bars"></i>
+        </button>
+        <nav class="navegacion">
+            <ul>
+                <li><img src="img/huellitanav.png">Categorías</li>
+                <li><img src="img/huellitanav.png">Pets</li>
+                <li><img src="img/huellitanav.png">Nosotros</li>
+                <li><img src="img/huellitanav.png">Contactanos</li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="bienvenida">
+            <article class="caja uno">
+                
+                <p>
+                    ¡Es un placer tenerte aquí! 
+                </p>
+                <span>
+                    ¡Comederos en descuento!
+                </span>
+                <a href="#" target="_blank">
+                    COMEDEROS
+                </a>
+            
+            </article>
+        </section>
+
+        <section class="productosdestacados">
+
+            <img id="huellita" src="img/huellita.png" alt="huella de perrito">
+            <h1>
+                Productos Destacados
+            </h1>
+
+            <nav>
+                <a href="#">
+                    Comederos
+                </a>
+                <a href="#">
+                    Accesorios
+                </a>
+                <a href="#">
+                    Comida
+                </a>
+            </nav>
+            
+            <section class="productos">
+                <article class="churrasquito">
+                    <img src="img/churrasquito.png">
+                    <p>
+                        Juguete Churrasquito
+                    </p>
+                    <span>
+                        $150
+                    </span>
+                </article>
+
+                <article class="comedero">
+                    <img src="img/comedero.png">
+                    <p>
+                        Comedero para perro
+                    </p>
+                    <span>
+                        $250
+                    </span>
+                    </article>
+
+                <article class="juguete">
+                    <img src="img/huesito.png">
+                    <p>
+                        Juguete Huesito
+                    </p>
+                    <span>
+                        $650
+                    </span>
+                </article>
+            </section>
+<!--SECCION DE CONTACTO-->
+<form action="/registro" method="POST">
+
+            <section class="contacto">
+                <label for="contacto">
+                    Contactanos  
+                </label>
+                <input type="text" id="contacto" name="contacto" placeholder="Nombre y Apellido" required>
+                <input type="email" id="contacto" name="contacto" placeholder="Ingresá tu correo electrónico" required>
+                <input type="tel" id="contacto" name="contacto" placeholder="Teléfono">    
+
+                <article class="botonescontacto">
+
+                <button type="reset" id="resetear">
+                    Resetear
+                </button>
+                <button type="submit" id="enviar">
+                    Enviar
+                </button>
+
+                </article>
+
+            </section>
+
+        </section>
+
+    </main>
+
+
+<footer>
+    <section class="suscribite">
+        <img src="img/enviar.png">
+        <p> Suscribite para mas novedades </p>
+        
+        <article class="suscripcion">
+            <input type="email" id="correo" name="correo" placeholder="Ingresa tu correo electronico" required>
+
+            <button type="submit" id="suscripcion">
+                Suscribirme
+            </button>
+
+        </article>
+    </section>
+
+</form>
+    
+    <section class="footerinfo">
+            <article class="informacion">
+                <span id="uno">
+                    <img src="img/locacion.png">
+                    <span class="info">
+                    <p>Localidad</p>
+                    <i>Calle - provincia</i>
+                    </span>
+                </span>
+                <span id="uno">
+                    <img src="img/telefono.png">
+                    <span class="info">
+                    <p>Telefono</p>
+                    <i>Numero de telefono</i>
+                    </span>
+                </span>
+                <span id="uno">
+                    <img src="img/mail.png">
+                    <span class="info">
+                    <p>Correo electronico</p>
+                    <i>Dirrecion de correo</i>
+                    </span>
+                </span>  
+            </article>
+            <span id="imagen">
+                <img src="img/logofooter.png">
+            </span>
+        </section>
+
+    </section>
+
+    
+    <section class="div footer">
+
+        <p>
+            Todos los derechos reservados Front End
+        </p>
+    </section>
+
+</footer>
+</body>
+</html>
